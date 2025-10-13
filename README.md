@@ -60,6 +60,14 @@ orangehrm/
         └── playwright.yml
 ```
 
+## 📌 Jira Overview
+
+This section shows how the project is structured in Jira, including Epics, User Stories, and Test Case traceability.
+
+Here’s a screenshot from Jira showing the Epics and User Stories:
+
+![Alt Text](jira_screenshot)
+
 yaml
 Copy code
 
@@ -73,7 +81,7 @@ Copy code
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/orangehrm.git
+git clone https://github.com/efrosalex/orangehrm.git
 cd orangehrm
 ```
 
@@ -170,41 +178,29 @@ TC01: Manager resets employee timesheet
 TC02: Manager rejects employee timesheet
 ```
 
-## ✨Highlights:
-
-
-Dynamic username generation to avoid duplicates
-
-Validation for mandatory fields, invalid credentials, and leave balances
-
-Full manager vs employee workflows across all modules
-
-Page Object Model ensures clean and maintainable automation scripts
-
-
 ## 🤖 GitHub Actions CI
 
-Workflow file: .github/workflows/playwright.yml
+* Workflow file: .github/workflows/playwright.yml
 
-Runs tests automatically on push or pull request to main/master
+* Runs tests automatically on push or pull request to main/master
 
-Uploads HTML test reports as artifact
+* Uploads HTML test reports as artifact
 
-Badges for workflow success/failure, Playwright version, Node.js version
+* Badges for workflow success/failure, Playwright version, Node.js version
 
 
-## 📌 Key Highlights
+## ✨ Key Highlights
 
-Reusable Page Object Model (POM) for all workflows
+* Reusable Page Object Model (POM) for all workflows
 
-Dynamic test data ensures uniqueness and reliability
+* Dynamic test data ensures uniqueness and reliability
 
-Covers employee and manager roles across modules
+* Covers employee and manager roles across modules
 
-Automated validation of mandatory fields, invalid inputs, approvals, and workflow rules
+* Automated validation of mandatory fields, invalid inputs, approvals, and workflow rules
 
 
 ## 🧑‍💻 Author  
-Alex Efros  
+Alexandru Efros  
 QA Automation | Playwright | Jira  
-[LinkedIn](https://www.linkedin.com/in/alexandruefros/) | [GitHub](https://github.com/Efrosalex)
+* [LinkedIn](https://www.linkedin.com/in/alexandruefros/) | [GitHub](https://github.com/Efrosalex)
