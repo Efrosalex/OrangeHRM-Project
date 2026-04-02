@@ -101,7 +101,7 @@ npx playwright install
 Copy code
 npx playwright test --project=chromium --workers 1
 ```
-## ❗ Note: The tests are made to be executed in a specific order, it is required to run them with a single worker for all tests to pass.
+<font size="5">❗ Note: The tests are made to be executed in a specific order, it is required to run them with a single worker for all tests to pass. </font>
 
 5. View HTML report:
 ```bash
