@@ -73,7 +73,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 👤 EPIC: Maintenance
+### 👤 EPIC: Maintenance
 
 ### 📖 MAIN-US01 – Manager Access Records
 **Test Cases:**
@@ -82,7 +82,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 👤 EPIC: Buzz
+### 👤 EPIC: Buzz
 
 ### 📖 BUZZ-US01 – Employee Posts
 **Test Cases:**
@@ -96,7 +96,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 👤 EPIC: Timesheet
+### 👤 EPIC: Timesheet
 
 ### 📖 TME-US01 – Employee Timesheet
 **Test Cases:**
