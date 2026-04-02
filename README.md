@@ -68,7 +68,7 @@ POM structure in Playwright:
 
 ## 📌 Jira Overview
 
-This section shows how the project is structured in Jira, including Epics, User Stories, and Test Case traceability.
+This section shows how the project is structured in Jira, including Epics, User Stories, Bugs and Test Case traceability.
 
 Screenshot from Jira showing the Epics and User Stories structure:
 
