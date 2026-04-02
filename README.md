@@ -85,9 +85,9 @@ Here is an example of a documented bug:
 <img width="1913" height="906" alt="1" src="https://github.com/user-attachments/assets/531bb678-e711-4ef6-bcd6-77f0b9c5a46a" />
 <img width="1912" height="910" alt="2" src="https://github.com/user-attachments/assets/d544e809-47b0-420e-9be8-e8d4b2e01986" />
 
----
+### 🤖 Playwright Overview
 
-## 🚀 How to Run the Tests Locally
+## 🚀 How to Run the Tests Locally 
 
 1. Clone the repository:
 ```bash
