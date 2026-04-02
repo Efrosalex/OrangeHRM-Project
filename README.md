@@ -121,7 +121,7 @@ Here is an example of a documented bug:
 
 <img width="1912" height="910" alt="2" src="https://github.com/user-attachments/assets/d544e809-47b0-420e-9be8-e8d4b2e01986" />
 
-# 🤖 Playwright Overview
+# 🎭 Playwright Overview
 
 ## 🗂️ Project Structure
 
