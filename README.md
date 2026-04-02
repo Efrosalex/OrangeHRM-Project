@@ -213,16 +213,6 @@ Example report screenshot:
 * Badges for workflow success/failure, Playwright version, Node.js version
 
 
-## ✨ Key Highlights
-
-* Reusable Page Object Model (POM) for all workflows
-
-* Dynamic test data ensures uniqueness and reliability
-
-* Covers employee and manager roles across modules
-
-* Automated validation of mandatory fields, invalid inputs, approvals, and workflow rules
-
 
 ## 🧑‍💻 Author  
 Alexandru Efros  
