@@ -38,8 +38,8 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ## 🧩 Test Coverage & Traceability
 
-👤 Employee Management
-```
+👤 Employee Management EPIC
+
 📖 REG-US01 – Create Employee Accounts (3 Test Cases)
 
 TC01: Employee account creation with valid data
@@ -56,7 +56,7 @@ TC02: Edit employee details with invalid input
 TC01: Login with valid credentials
 TC02: Login with invalid password
 TC03: Login with missing required fields
-```
+
 🏥 Leave Management
 ```
 📖 LEAVE-US01 – Employee Leave Requests (2 Test Cases)
