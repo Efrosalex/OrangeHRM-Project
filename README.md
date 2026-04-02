@@ -38,74 +38,80 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ## 🧩 Test Coverage & Traceability
 
-👤 EPIC: Employee Management
-📖 REG-US01 – Create Employee Accounts
+# 👤 EPIC: Employee Management
 
-Test Cases:
+## 📖 REG-US01 – Create Employee Accounts
+**Test Cases:**
+- 🔹 TC01: Employee account creation with valid data  
+- 🔹 TC02: Employee account creation with duplicate username  
+- 🔹 TC03: Employee account creation with missing required fields  
 
-🔹 TC01: Employee account creation with valid data
-🔹 TC02: Employee account creation with duplicate username
-🔹 TC03: Employee account creation with missing required fields
-📖 REG-US02 – Edit Employee Details
+## 📖 REG-US02 – Edit Employee Details
+**Test Cases:**
+- 🔹 TC01: Edit employee details successfully  
+- 🔹 TC02: Edit employee details with invalid input  
 
-Test Cases:
+## 📖 REG-US03 – Employee Login
+**Test Cases:**
+- 🔹 TC01: Login with valid credentials  
+- 🔹 TC02: Login with invalid password  
+- 🔹 TC03: Login with missing required fields  
 
-🔹 TC01: Edit employee details successfully
-🔹 TC02: Edit employee details with invalid input
-📖 REG-US03 – Employee Login
+---
 
-Test Cases:
+# 🏥 EPIC: Leave Management
 
-🔹 TC01: Login with valid credentials
-🔹 TC02: Login with invalid password
-🔹 TC03: Login with missing required fields
-🏥 EPIC: Leave Management
-📖 LEAVE-US01 – Employee Leave Requests
+## 📖 LEAVE-US01 – Employee Leave Requests
+**Test Cases:**
+- 🔹 TC01: Employee applies for sick leave successfully  
+- 🔹 TC02: Employee attempts leave with insufficient balance  
 
-Test Cases:
+## 📖 LEAVE-US02 – Manager Leave Requests
+**Test Cases:**
+- 🔹 TC01: Manager approves leave request  
+- 🔹 TC02: Manager rejects leave request  
 
-🔹 TC01: Employee applies for sick leave successfully
-🔹 TC02: Employee attempts leave with insufficient balance
-📖 LEAVE-US02 – Manager Leave Requests
+---
 
-Test Cases:
+# 🛠️ EPIC: Maintenance
 
-🔹 TC01: Manager approves leave request
-🔹 TC02: Manager rejects leave request
-🛠️ EPIC: Maintenance
-📖 MAIN-US01 – Manager Access Records
+## 📖 MAIN-US01 – Manager Access Records
+**Test Cases:**
+- 🔹 TC01: Manager signs in to Maintenance module  
+- 🔹 TC02: Manager downloads employee records  
 
-Test Cases:
+---
 
-🔹 TC01: Manager signs in to Maintenance module
-🔹 TC02: Manager downloads employee records
-💬 EPIC: Buzz
-📖 BUZZ-US01 – Employee Posts
+# 💬 EPIC: Buzz
 
-Test Cases:
+## 📖 BUZZ-US01 – Employee Posts
+**Test Cases:**
+- 🔹 TC01: Employee creates a new post  
+- 🔹 TC02: Employee likes a post  
+- 🔹 TC03: Employee edits a post  
 
-🔹 TC01: Employee creates a new post
-🔹 TC02: Employee likes a post
-🔹 TC03: Employee edits a post
-📖 BUZZ-US02 – Manager Post Deletion
+## 📖 BUZZ-US02 – Manager Post Deletion
+**Test Cases:**
+- 🔹 TC01: Manager can delete employee post  
 
-Test Cases:
+---
 
-🔹 TC01: Manager can delete employee post
-⏱️ EPIC: Timesheet
-📖 TME-US01 – Employee Timesheet
+# ⏱️ EPIC: Timesheet
 
-Test Cases:
+## 📖 TME-US01 – Employee Timesheet
+**Test Cases:**
+- 🔹 TC01: Employee submits timesheet  
+- 🔹 TC02: Employee edits timesheet before approval  
+- 🔹 TC03: Employee cannot edit timesheet after manager approval  
 
-🔹 TC01: Employee submits timesheet
-🔹 TC02: Employee edits timesheet before approval
-🔹 TC03: Employee cannot edit timesheet after manager approval
-📖 TME-US02 – Manager Timesheet
+## 📖 TME-US02 – Manager Timesheet
+**Test Cases:**
+- 🔹 TC01: Manager resets employee timesheet  
+- 🔹 TC02: Manager rejects employee timesheet  
 
-Test Cases:
+---
 
-🔹 TC01: Manager resets employee timesheet
-🔹 TC02: Manager rejects employee timesheet
+**Traceability:** Each Test Case is linked to its User Story and corresponding Epic in Jira.
 
 # 📌 Jira Overview
 
