@@ -82,12 +82,8 @@ For bugs, I have created a standard description that includes: Bug Type, Severit
 
 Here is an example of a documented bug:
 
-<img width="1920" height="1080" alt="Bug 1" src="https://github.com/user-attachments/assets/acee96a8-74e2-46f2-a0b4-59148bd8e127" />
-<img width="1920" height="1080" alt="Bug 2" src="https://github.com/user-attachments/assets/4fb8dce7-970e-4a79-9f36-28e74b55c8a8" />
-
-
-- `pages/*.js` → reusable Page Object Model classes  
-- `tests/*.spec.js` → automated test suites grouped by User Stories  
+<img width="1913" height="906" alt="1" src="https://github.com/user-attachments/assets/531bb678-e711-4ef6-bcd6-77f0b9c5a46a" />
+<img width="1912" height="910" alt="2" src="https://github.com/user-attachments/assets/d544e809-47b0-420e-9be8-e8d4b2e01986" />
 
 ---
 
