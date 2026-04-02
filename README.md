@@ -34,10 +34,6 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 | Test Design Pattern  | Page Object Model (POM) |
 | Test Management      | Jira                 |
 
-POM structure in Playwright:
-
-<img width="1618" height="731" alt="Playwright POM" src="https://github.com/user-attachments/assets/53117287-daea-4ef4-b22d-dfb0887e6d1d" />
-
 ---
 
 ## 🗂️ Project Structure
@@ -62,7 +58,13 @@ orangehrm/
 └── .github/
     └── workflows/
         └── playwright.yml
+
 ```
+
+POM structure in Playwright:
+
+<img width="1618" height="731" alt="Playwright POM" src="https://github.com/user-attachments/assets/53117287-daea-4ef4-b22d-dfb0887e6d1d" />
+
 
 ## 📌 Jira Overview
 
