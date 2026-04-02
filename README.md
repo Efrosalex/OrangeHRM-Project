@@ -79,31 +79,30 @@ Copy code
 ## 🚀 How to Run the Tests Locally
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/efrosalex/orangehrm.git
 cd orangehrm
 ```
 
-Install dependencies:
+2. Install dependencies:
 ```bash
 Copy code
 npm install
 ```
 
-Install Playwright browsers:
+3. Install Playwright browsers:
 ```bash
 Copy code
 npx playwright install
 ```
 
-Run all tests:
+4. Run all tests:
 ```bash
 Copy code
 npx playwright test
 ```
 
-View HTML report:
+5. View HTML report:
 ```bash
 Copy code
 npx playwright show-report
