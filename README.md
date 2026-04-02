@@ -68,11 +68,23 @@ POM structure in Playwright:
 
 ## 📌 Jira Overview
 
-This section shows how the project is structured in Jira, including Epics, User Stories, Bugs and Test Case traceability.
+This section shows how the project is structured in Jira. I have used the following structure: 
 
-Screenshot from Jira showing the Epics and User Stories structure:
+Epics are devided into User Stories, which are further devided into Test Cases.
+
+Screenshot from Jira showing the structure:
 
 ![Alt Text](jira_screenshot)
+
+Screenshot from Jira showing how a Test Case looks like
+
+For bugs, I have created a standard description that includes: Bug Type, Severity, Steps to Reproduce, Expected Results, Actual Results and Attachments.
+
+Here is an example of a documented bug:
+
+<img width="1920" height="1080" alt="Bug 1" src="https://github.com/user-attachments/assets/acee96a8-74e2-46f2-a0b4-59148bd8e127" />
+<img width="1920" height="1080" alt="Bug 2" src="https://github.com/user-attachments/assets/4fb8dce7-970e-4a79-9f36-28e74b55c8a8" />
+
 
 - `pages/*.js` → reusable Page Object Model classes  
 - `tests/*.spec.js` → automated test suites grouped by User Stories  
