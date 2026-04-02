@@ -59,52 +59,52 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-# 🏥 EPIC: Leave Management
+## 🏥 EPIC: Leave Management
 
-## 📖 LEAVE-US01 – Employee Leave Requests
+### 📖 LEAVE-US01 – Employee Leave Requests
 **Test Cases:**
 - 🔹 TC01: Employee applies for sick leave successfully  
 - 🔹 TC02: Employee attempts leave with insufficient balance  
 
-## 📖 LEAVE-US02 – Manager Leave Requests
+### 📖 LEAVE-US02 – Manager Leave Requests
 **Test Cases:**
 - 🔹 TC01: Manager approves leave request  
 - 🔹 TC02: Manager rejects leave request  
 
 ---
 
-# 🛠️ EPIC: Maintenance
+## 🛠️ EPIC: Maintenance
 
-## 📖 MAIN-US01 – Manager Access Records
+### 📖 MAIN-US01 – Manager Access Records
 **Test Cases:**
 - 🔹 TC01: Manager signs in to Maintenance module  
 - 🔹 TC02: Manager downloads employee records  
 
 ---
 
-# 💬 EPIC: Buzz
+## 💬 EPIC: Buzz
 
-## 📖 BUZZ-US01 – Employee Posts
+### 📖 BUZZ-US01 – Employee Posts
 **Test Cases:**
 - 🔹 TC01: Employee creates a new post  
 - 🔹 TC02: Employee likes a post  
 - 🔹 TC03: Employee edits a post  
 
-## 📖 BUZZ-US02 – Manager Post Deletion
+### 📖 BUZZ-US02 – Manager Post Deletion
 **Test Cases:**
 - 🔹 TC01: Manager can delete employee post  
 
 ---
 
-# ⏱️ EPIC: Timesheet
+## ⏱️ EPIC: Timesheet
 
-## 📖 TME-US01 – Employee Timesheet
+### 📖 TME-US01 – Employee Timesheet
 **Test Cases:**
 - 🔹 TC01: Employee submits timesheet  
 - 🔹 TC02: Employee edits timesheet before approval  
 - 🔹 TC03: Employee cannot edit timesheet after manager approval  
 
-## 📖 TME-US02 – Manager Timesheet
+### 📖 TME-US02 – Manager Timesheet
 **Test Cases:**
 - 🔹 TC01: Manager resets employee timesheet  
 - 🔹 TC02: Manager rejects employee timesheet  
