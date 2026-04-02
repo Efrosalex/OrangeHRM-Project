@@ -36,94 +36,6 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 🗂️ Project Structure
-
-```
-orangehrm/
-├── tests/
-│   ├── login.spec.js         # Employee/Admin login & account management
-│   ├── leave.spec.js         # Employee/Manager leave workflows
-│   ├── maintenance.spec.js   # Manager maintenance module
-│   ├── buzz.spec.js          # Employee/Manager Buzz posts
-│   └── timesheet.spec.js     # Employee/Manager timesheet management
-├── pages/
-│   ├── loginPage.js
-│   ├── leavePage.js
-│   ├── maintenancePage.js
-│   ├── buzzPage.js
-│   └── timesheetPage.js
-├── playwright.config.js
-├── package.json
-├── .gitignore
-└── .github/
-    └── workflows/
-        └── playwright.yml
-
-```
-
-POM structure in Playwright:
-
-<img width="1618" height="731" alt="Playwright POM" src="https://github.com/user-attachments/assets/53117287-daea-4ef4-b22d-dfb0887e6d1d" />
-
-
-## 📌 Jira Overview
-
-This section shows how the project is structured in Jira. I have used the following structure: 
-
-Epics are devided into User Stories, which are further devided into Test Cases.
-
-Screenshot from Jira showing the structure:
-
-![Alt Text](jira_screenshot)
-
-Screenshot from Jira showing how a Test Case looks like
-
-For bugs, I have created a standard description that includes: Bug Type, Severity, Steps to Reproduce, Expected Results, Actual Results and Attachments.
-
-Here is an example of a documented bug:
-
-<img width="1913" height="906" alt="1" src="https://github.com/user-attachments/assets/531bb678-e711-4ef6-bcd6-77f0b9c5a46a" />
-<img width="1912" height="910" alt="2" src="https://github.com/user-attachments/assets/d544e809-47b0-420e-9be8-e8d4b2e01986" />
-
-## 🤖 Playwright Overview
-
-🚀 How to Run the Tests Locally: 
-
-1. Clone the repository:
-```bash
-git clone https://github.com/efrosalex/orangehrm.git
-cd orangehrm
-```
-
-2. Install dependencies:
-```bash
-Copy code
-npm install
-```
-
-3. Install Playwright browsers:
-```bash
-Copy code
-npx playwright install
-```
-
-4. Run all tests:
-```bash
-Copy code
-npx playwright test --project=chromium --workers 1
-```
-<font size="5">❗ Note: The tests are made to be executed in a specific order, it is required to run them with a single worker for all tests to pass. </font>
-
-5. View HTML report:
-```bash
-Copy code
-npx playwright show-report
-```
-
-Example report screenshot:
-
-<img width="1914" height="816" alt="Buzz Results" src="https://github.com/user-attachments/assets/65ce1f7b-3453-4c33-981f-bcbdbee0a74e" />
-
 ## 🧩 Test Coverage & Traceability
 
 👤 Employee Management
@@ -190,6 +102,96 @@ TC03: Employee cannot edit timesheet after manager approval
 TC01: Manager resets employee timesheet
 TC02: Manager rejects employee timesheet
 ```
+
+# 📌 Jira Overview
+
+This section shows how the project is structured in Jira. I have used the following structure: 
+
+Epics are devided into User Stories, which are further devided into Test Cases.
+
+Screenshot from Jira showing the structure:
+
+![Alt Text](jira_screenshot)
+
+Screenshot from Jira showing how a Test Case looks like
+
+For bugs, I have created a standard description that includes: Bug Type, Severity, Steps to Reproduce, Expected Results, Actual Results and Attachments.
+
+Here is an example of a documented bug:
+
+<img width="1913" height="906" alt="1" src="https://github.com/user-attachments/assets/531bb678-e711-4ef6-bcd6-77f0b9c5a46a" />
+<img width="1912" height="910" alt="2" src="https://github.com/user-attachments/assets/d544e809-47b0-420e-9be8-e8d4b2e01986" />
+
+# 🤖 Playwright Overview
+
+## 🗂️ Project Structure
+
+```
+orangehrm/
+├── tests/
+│   ├── login.spec.js         # Employee/Admin login & account management
+│   ├── leave.spec.js         # Employee/Manager leave workflows
+│   ├── maintenance.spec.js   # Manager maintenance module
+│   ├── buzz.spec.js          # Employee/Manager Buzz posts
+│   └── timesheet.spec.js     # Employee/Manager timesheet management
+├── pages/
+│   ├── loginPage.js
+│   ├── leavePage.js
+│   ├── maintenancePage.js
+│   ├── buzzPage.js
+│   └── timesheetPage.js
+├── playwright.config.js
+├── package.json
+├── .gitignore
+└── .github/
+    └── workflows/
+        └── playwright.yml
+
+```
+
+POM structure in Playwright:
+
+<img width="1618" height="731" alt="Playwright POM" src="https://github.com/user-attachments/assets/53117287-daea-4ef4-b22d-dfb0887e6d1d" />
+
+
+## 🚀 How to Run the Tests Locally: 
+
+1. Clone the repository:
+```bash
+git clone https://github.com/efrosalex/orangehrm.git
+cd orangehrm
+```
+
+2. Install dependencies:
+```bash
+Copy code
+npm install
+```
+
+3. Install Playwright browsers:
+```bash
+Copy code
+npx playwright install
+```
+
+4. Run all tests:
+```bash
+Copy code
+npx playwright test --project=chromium --workers 1
+```
+<font size="5">❗ Note: The tests are made to be executed in a specific order, it is required to run them with a single worker for all tests to pass. </font>
+
+5. View HTML report:
+```bash
+Copy code
+npx playwright show-report
+```
+
+Example report screenshot:
+
+<img width="1914" height="816" alt="Buzz Results" src="https://github.com/user-attachments/assets/65ce1f7b-3453-4c33-981f-bcbdbee0a74e" />
+
+
 
 ## 🤖 GitHub Actions CI
 
