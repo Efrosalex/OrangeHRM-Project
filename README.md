@@ -1,7 +1,7 @@
 # 🧪 OrangeHRM Automation Testing Project
 
 ![Playwright Tests](https://img.shields.io/badge/Playwright-Automation-blue?logo=playwright)
-![Node.js](https://img.shields.io/badge/Node.js-LTS-green?logo=node.js)
+[![Jira](https://img.shields.io/badge/Jira-Project-blue?logo=jira)](https://your-jira-link.com)
 ![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)
 
 This repository contains **automated functional and regression tests** for **OrangeHRM**, using **Playwright** with the **Page Object Model (POM)** design pattern.  
