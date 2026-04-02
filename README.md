@@ -87,7 +87,7 @@ Here is an example of a documented bug:
 
 ## 🤖 Playwright Overview
 
-🚀 How to Run the Tests Locally 
+🚀 How to Run the Tests Locally: 
 
 1. Clone the repository:
 ```bash
