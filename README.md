@@ -9,7 +9,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 📋 Project Overview
+# 📋 Project Overview
 
 - **Application Under Test:** [OrangeHRM Demo](http://localhost/orangehrm/web/index.php/auth/login)  
 - **Automation Scope:**  
@@ -119,13 +119,13 @@ This section shows how the project is structured in Jira. I have used the follow
 
 Epics are devided into User Stories, which are further devided into Test Cases.
 
-Screenshot from Jira showing the structure:
+📷 Screenshot from Jira showing the structure:
 
 ![Alt Text](jira_screenshot)
 
 For bugs, I have created a standard description that includes: Bug Type, Severity, Steps to Reproduce, Expected Results, Actual Results and Attachments.
 
-Here is an example of a documented bug:
+📷 Here is an example of a documented bug:
 
 <img width="1913" height="906" alt="1" src="https://github.com/user-attachments/assets/531bb678-e711-4ef6-bcd6-77f0b9c5a46a" />
 
@@ -158,7 +158,7 @@ orangehrm/
 
 ```
 
-POM structure in Playwright:
+📷 POM structure in Playwright:
 
 <img width="1618" height="731" alt="Playwright POM" src="https://github.com/user-attachments/assets/53117287-daea-4ef4-b22d-dfb0887e6d1d" />
 
