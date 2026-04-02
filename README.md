@@ -23,7 +23,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 🧰 Tools & Technologies
+# 🧰 Tools & Technologies
 
 | Category             | Tool/Library          |
 |---------------------|---------------------|
