@@ -38,7 +38,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ## 🧩 Test Coverage & Traceability
 
-👤 Employee Management EPIC
+<font size="7">👤 Employee Management EPIC</font>
 
 📖 REG-US01 – Create Employee Accounts (3 Test Cases)
 
