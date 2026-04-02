@@ -111,6 +111,8 @@ npx playwright show-report
 
 Example report screenshot:
 
+<img width="1914" height="816" alt="Buzz Results" src="https://github.com/user-attachments/assets/65ce1f7b-3453-4c33-981f-bcbdbee0a74e" />
+
 ## 🧩 Test Coverage & Traceability
 
 👤 Employee Management
