@@ -40,7 +40,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ### 👤 EPIC: Employee Management
 
-#### 📖 REG-US01 – Create Employee Accounts
+### 📖 REG-US01 – Create Employee Accounts
 **Test Cases:**
 - 🔹 TC01: Employee account creation with valid data  
 - 🔹 TC02: Employee account creation with duplicate username  
@@ -59,7 +59,7 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 ---
 
-## 👤 EPIC: Leave Management
+### 👤 EPIC: Leave Management
 
 ### 📖 LEAVE-US01 – Employee Leave Requests
 **Test Cases:**
