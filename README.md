@@ -99,8 +99,9 @@ npx playwright install
 4. Run all tests:
 ```bash
 Copy code
-npx playwright test
+npx playwright test --project=chromium --workers 1
 ```
+#Note: The tests are made to be executed in a specific order, it is required to run them with a single worker for all tests to pass.
 
 5. View HTML report:
 ```bash
