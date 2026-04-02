@@ -113,8 +113,6 @@ Screenshot from Jira showing the structure:
 
 ![Alt Text](jira_screenshot)
 
-Screenshot from Jira showing how a Test Case looks like
-
 For bugs, I have created a standard description that includes: Bug Type, Severity, Steps to Reproduce, Expected Results, Actual Results and Attachments.
 
 Here is an example of a documented bug:
