@@ -70,12 +70,9 @@ POM structure in Playwright:
 
 This section shows how the project is structured in Jira, including Epics, User Stories, and Test Case traceability.
 
-Here’s a screenshot from Jira showing the Epics and User Stories:
+Screenshot from Jira showing the Epics and User Stories structure:
 
 ![Alt Text](jira_screenshot)
-
-yaml
-Copy code
 
 - `pages/*.js` → reusable Page Object Model classes  
 - `tests/*.spec.js` → automated test suites grouped by User Stories  
