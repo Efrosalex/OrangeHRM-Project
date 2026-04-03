@@ -115,9 +115,11 @@ It covers **employee management, leave requests, maintenance access, Buzz posts,
 
 # 📌 Jira Overview
 
-This section shows how the project is structured in Jira. I have used the following structure: 
+This project includes structured *test management in Jira*, covering:
 
-Epics are devided into User Stories, which are further devided into Test Cases.
+- 📋 User Stories & backlog organization  
+- ✅ Detailed test cases linked to requirements  
+- 🐞 Bug tracking with full documentation
 
 📷 Screenshot from Jira showing the structure:
 
